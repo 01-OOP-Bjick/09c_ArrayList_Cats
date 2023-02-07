@@ -20,10 +20,10 @@ public class App {
 		ArrayList<Cat> objList = new ArrayList<>();
 
 		for (int i = 0; i < nameArr.length; i++) 
-		// for (int i = 0; i < 4; i++) 
+		// // for (int i = 0; i < 4; i++) 
 		{
 			objList.add(new Cat(nameArr[i]));
-			output("Cats: " + objList);
+			// output("Cats: " + objList);
 
 			// objList.add(new Cat("someone_" + i));
 		
